@@ -75,9 +75,20 @@
             </div>
         </nav>
 
-        <main class="py-4">
-            @yield('content')
-        </main>
+        <div class="container">
+            <div class="row justify-content-center">
+
+                <div class="col-12 mt-4">
+                    @yield('botones')
+                </div>
+
+                <main class="mt-3 col-12">
+                    @yield('content')
+                </main>
+
+            </div>
+        </div>
+
     </div>
 </body>
 </html>
